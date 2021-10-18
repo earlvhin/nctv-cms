@@ -1,0 +1,40 @@
+/** Bootstrap v5 Plugins **/
+@import 'plugins/bootstrap-reboot.min.css';
+@import 'plugins/bootstrap-grid.min.css';
+@import 'plugins/bootstrap-utilities.min.css';
+
+/** Custom Styles **/
+@import './utils';
+@import './forms';
+@import './buttons';
+@import './colors';
+
+/** Fonts **/
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito-bold-webfont.woff') format('woff');
+    font-weight: bold;
+}
+
+*, body {
+    font-family: Nunito;
+}
+
+div {
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box !important;    /* Firefox, other Gecko */
+    box-sizing: border-box !important;         /* Opera/IE 8+ */
+}

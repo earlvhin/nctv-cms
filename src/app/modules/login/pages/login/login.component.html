@@ -1,0 +1,30 @@
+<div class="page login-page d-flex vh-100">
+    <div class="left login-form flex-50 h-100">
+        <div class="d-flex h-100 align-items-center justify-content-center">
+            <div class="login-area">
+                <div class="heading mb-5">
+                    <img src="assets/media-files/logo.png" class="logo mb-5" alt="n-compasstv">
+                    <h1 class="fw-bold">
+                        Login
+                    </h1>
+                    <p>Start making a change and take over now</p>
+                </div>
+    
+                <app-login-form></app-login-form>
+            </div>
+        </div>
+    </div> <!-- Login Form -->
+
+    <div class="right login-showcase flex-50 h-100 px-5 primary">
+        <div class="d-flex h-100 align-items-center justify-content-center px-5">
+            <div class="login-showcase_wrapper px-5 text-white text-center">
+                <h2 class="fw-bold mb-4">
+                    {{ welcome_msg.heading}}
+                </h2>
+                <p class="lh-4 fw-bold">
+                    {{ welcome_msg.body }}
+                </p>
+            </div>
+        </div>
+    </div> <!-- Login Showcase -->
+</div>
